@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sign_in_up_views/second%20one/HomePage2.dart';
 
 import 'first one/home_page_one.dart';
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: HomePage2(),
     );
   }
 
